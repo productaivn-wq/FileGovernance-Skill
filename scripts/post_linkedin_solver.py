@@ -1,5 +1,4 @@
 import os
-import sys
 import time
 import json
 import urllib.request
@@ -132,7 +131,7 @@ def run():
                     sitekey = key_el.first.get_attribute("value")
                 
                 if not sitekey:
-                    sitekey = os.environ.get("LINKEDIN_RECAPTCHA_SITEKEY", "6Lc7CQMTAAAAAIL84V_tPRYEWZtljsJQJZ5jSijw")
+                    sitekey = os.environ.get("LINKEDIN_RECAPTCHA_SITEKEY")
                 
                 print(f"[CHECKPOINT] Using sitekey: {sitekey}")
                 

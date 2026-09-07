@@ -8,7 +8,6 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-import pytest
 from core.governance_engine import validate_zone, parse_pdca_prefix
 
 

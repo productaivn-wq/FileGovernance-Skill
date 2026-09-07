@@ -1,7 +1,4 @@
 import os
-import sys
-import time
-import json
 from pathlib import Path
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
@@ -212,7 +209,7 @@ def run():
                     print(f"[SUCCESS] Post button disappeared after {wait_close}s! Submission complete.")
                     break
             except Exception:
-                print(f"[SUCCESS] Target button detached! Submission complete.")
+                print("[SUCCESS] Target button detached! Submission complete.")
                 break
 
             if wait_close == 6:
