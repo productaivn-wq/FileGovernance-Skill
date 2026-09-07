@@ -97,3 +97,10 @@ Every managed file must follow a predictable, machine-parseable naming conventio
 2. **Never Delete Ambiguous Content**: Unclassified or uncertain files route to `00_INBOX/`.
 3. **Archive Read-Only**: Files inside `40_ARCHIVE/` are immutable snapshots.
 4. **Zero Outdated Truth**: Deprecated or superseded files must transition to archive with status updated in the knowledge index.
+
+## Artifacts
+- `docs/functional_requirements.md`: Upstream UTOP specifications for workspace routing and naming.
+- `docs/function_list.md`: Manifest of core governance functions and modules.
+- `docs/checkpoints.md`: Verification gates and compliance criteria.
+- `docs/okf/`: Frictionless Data Package containing traceability matrix and table schema.
+- `core/governance_engine.py`: Deterministic zone routing and PDCA parsing engine.

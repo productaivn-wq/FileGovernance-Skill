@@ -1,0 +1,11 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "traceability-matrix",
+      "path": "traceability_matrix.csv",
+      "profile": "tabular-data-resource",
+      "schema": "okf_schema.json"
+    }
+  ]
+}
