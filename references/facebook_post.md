@@ -58,7 +58,7 @@ However, this isn't invented out of thin air. It draws inspiration from decades 
 • W. Edwards Deming’s PDCA (Plan-Do-Check-Act) artifact cycles
 
 I've packaged the complete Skill definition, reference documents, and copy-paste LLM prompt into an open-source repo:
-👉 GitHub: https://github.com/productaivn-wq/FileGovernance-Skill
+👉 GitHub: (Link in the first comment 👇)
 
 If you know of any open-source repositories, academic papers, or battle-tested industry standards tackling this—or if you have thoughts, feedback, or critiques—please tell me in the comments! Let’s compare notes. 👇
 ```
@@ -113,7 +113,7 @@ Tuy nhiên, mô hình này không tự nhiên sinh ra từ hư không, mà kế 
 • Chu trình chất lượng PDCA (Plan-Do-Check-Act) của W. Edwards Deming
 
 Toàn bộ Skill này (kèm tài liệu chi tiết và Prompt mẫu cho ChatGPT / Claude) mình đã đóng gói thành repo mở tại đây:
-👉 GitHub: https://github.com/productaivn-wq/FileGovernance-Skill
+👉 GitHub: (Link mình để ngay ở comment đầu tiên bên dưới nhé 👇)
 
 Anh em có biết repo mã nguồn mở nào, bài báo khoa học hay chuẩn công nghiệp nào giải quyết vấn đề này xịn hơn không? Hoặc anh em có góc nhìn, phản biện hay góp ý nào, chia sẻ cho mình bên dưới nhé! Rất mong được cùng thảo luận với mọi người. 👇
 ```
