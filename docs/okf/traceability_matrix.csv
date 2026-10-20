@@ -1,0 +1,4 @@
+uc_flow,description,gherkin_scenario,function_rule,test_data,status
+UC-001.1,Standard 5-zone workspace lifecycle routing,TC-UC-001-S01,FR-001,TC-001-VALID,Verified
+UC-001.2,PDCA artifact naming convention enforcement,TC-UC-001-S02,FR-002,TC-002-VALID,Verified
+UC-001.3,Knowledge Graph and GraphRAG ontology bridge,TC-UC-001-S03,FR-003,TC-003-VALID,Verified

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
+  "fields": [
+    {
+      "name": "uc_flow",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^UC-\\d+\\.[A-Z0-9]+$"
+      }
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^(?!N/A$).+$"
+      }
+    },
+    {
+      "name": "gherkin_scenario",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^(?!N/A$).+$"
+      }
+    },
+    {
+      "name": "function_rule",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^(?:FR|NFR)-\\d+$"
+      }
+    },
+    {
+      "name": "test_data",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "pattern": "^(?!N/A$).+$"
+      }
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": ["Draft", "Implemented", "Verified"]
+      }
+    }
+  ],
+  "primaryKey": "uc_flow"
+}
